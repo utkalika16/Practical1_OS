@@ -10,5 +10,8 @@ prog2: prog2.c
 prog3: prog3.c
 	$(CC) $(CFLAGS) -o prog3 prog3.c
 
+prog4: prog4.c
+	$(CC) $(CFLAGS) -o prog4 prog4.c
+
 clean:
-	rm -f prog1 prog2 prog3
+	rm -f prog1 prog2 prog3 prog4
